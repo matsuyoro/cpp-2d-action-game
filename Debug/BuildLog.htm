@@ -1,0 +1,87 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=shift_jis">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+ビルド ログ
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- ビルド開始 : プロジェクト : DirectDrawスケルトンプログラム、構成 : Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+コマンド ライン
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Visual C++ エディションはコンパイラの最適化をサポートしていません。
+Visual C++ エディションはコンパイラの最適化をサポートしていません。
+一時ファイル "c:\Documents and Settings\Administrator\デスクトップ\my_c_game\1\Debug\RSP000001.rsp" を作成しています。内容 :
+[
+/D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FD /EHsc /MLd /YX"stdafx.h" /Fp".\Debug/DirectDrawスケルトンプログラム.pch" /Fo".\Debug/" /Fd".\Debug/" /FR".\Debug/" /W3 /c /ZI /TP
+".\GameChrAct.cpp"
+".\EnemyAct.cpp"
+".\StageEvent.cpp"
+".\GameCheckProc.cpp"
+".\WinProc.cpp"
+".\DDrawProc.cpp"
+".\StageSelect.cpp"
+".\Main.cpp"
+".\GameStop.cpp"
+".\GameOver.cpp"
+".\GameMain.cpp"
+]
+コマンド ライン "cl.exe @"c:\Documents and Settings\Administrator\デスクトップ\my_c_game\1\Debug\RSP000001.rsp" /nologo" を作成しています。
+一時ファイル "c:\Documents and Settings\Administrator\デスクトップ\my_c_game\1\Debug\RSP000002.rsp" を作成しています。内容 :
+[
+/OUT:".\Debug/DirectDrawスケルトンプログラム.exe" /INCREMENTAL:NO /NOLOGO /DEBUG /PDB:".\Debug/DirectDrawスケルトンプログラム.pdb" /SUBSYSTEM:WINDOWS /MACHINE:X86 odbc32.lib odbccp32.lib winmm.lib ddraw.lib dxguid.lib dsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
+".\Debug\GameMain.obj"
+".\Debug\GameOver.obj"
+".\Debug\GameStop.obj"
+".\Debug\GameTitle.obj"
+".\Debug\Main.obj"
+".\Debug\StageSelect.obj"
+".\Debug\DirectSound.obj"
+".\Debug\DirectMusic.obj"
+".\Debug\DDrawProc.obj"
+".\Debug\GameInit.obj"
+".\Debug\WinProc.obj"
+".\Debug\BltProc.obj"
+".\Debug\SaveLoadProc.obj"
+".\Debug\BackProc.obj"
+".\Debug\GameBltProc.obj"
+".\Debug\GameCheckProc.obj"
+".\Debug\MapProc.obj"
+".\Debug\StageEvent.obj"
+".\Debug\EnemyAct.obj"
+".\Debug\GameChrAct.obj"
+".\Debug\DebugProc.obj"
+]
+コマンド ライン "link.exe @"c:\Documents and Settings\Administrator\デスクトップ\my_c_game\1\Debug\RSP000002.rsp"" を作成しています。
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+出力ウィンドウ
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>コンパイルしています...
+GameChrAct.cpp
+EnemyAct.cpp
+StageEvent.cpp
+GameCheckProc.cpp
+c:\documents and settings\administrator\デスクトップ\my_c_game\1\gamecheckproc.cpp(788) : warning C4554: '|' : 演算子の優先順位に問題があります。カッコを使用して優先順位を明確にしてください
+WinProc.cpp
+DDrawProc.cpp
+c:\documents and settings\administrator\デスクトップ\my_c_game\1\ddrawproc.cpp(131) : warning C4018: '>=' : signed と unsigned の数値を比較しようとしました。
+c:\documents and settings\administrator\デスクトップ\my_c_game\1\ddrawproc.cpp(125) : warning C4700: 値が割り当てられていないローカルな変数 'FPS_oldtime' に対して参照が行われました。
+StageSelect.cpp
+c:\documents and settings\administrator\デスクトップ\my_c_game\1\stageselect.cpp(24) : warning C4101: 'str' : ローカル変数は 1 度も使われていません。
+c:\documents and settings\administrator\デスクトップ\my_c_game\1\stageselect.cpp(122) : warning C4700: 値が割り当てられていないローカルな変数 'hdc' に対して参照が行われました。
+Main.cpp
+GameStop.cpp
+GameOver.cpp
+c:\documents and settings\administrator\デスクトップ\my_c_game\1\gameover.cpp(14) : warning C4101: 'str' : ローカル変数は 1 度も使われていません。
+c:\documents and settings\administrator\デスクトップ\my_c_game\1\gameover.cpp(80) : warning C4700: 値が割り当てられていないローカルな変数 'hdc' に対して参照が行われました。
+GameMain.cpp
+c:\documents and settings\administrator\デスクトップ\my_c_game\1\gamemain.cpp(27) : warning C4101: 'str' : ローカル変数は 1 度も使われていません。
+リンクしています...
+LINK : warning LNK4075: /EDITANDCONTINUE は /INCREMENTAL:NO の指定によって無視されます。
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+結果
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+ビルドログは "file://c:\Documents and Settings\Administrator\デスクトップ\my_c_game\1\Debug\BuildLog.htm" に保存されました。
+DirectDrawスケルトンプログラム - エラー 0、警告 9</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

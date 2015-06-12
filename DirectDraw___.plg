@@ -1,0 +1,48 @@
+--------------------構成: DirectDrawスケルトンプログラム - Win32 Debug--------------------
+Begining build with project "C:\Documents and Settings\Owner\デスクトップ\VC++プログラム\●ゲーム\DirectDrawスケルトンプログラム.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/DirectDrawスケルトンプログラム.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x411 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/DirectDrawスケルトンプログラム.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib ddraw.lib dxguid.lib dsound.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DirectDrawスケルトンプログラム.pdb" /debug /machine:I386 /out:"Debug/DirectDrawスケルトンプログラム.exe" /pdbtype:sept "
+			"ｶｽﾀﾑ ﾋﾞﾙﾄﾞ" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP91.tmp" with contents </nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/DirectDrawスケルトンプログラム.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Documents and Settings\Owner\デスクトップ\VC++プログラム\●ゲーム\StageSelect.cpp"
+>
+Creating command line "cl.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP91.tmp" 
+Creating temp file "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP92.tmp" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib ddraw.lib dxguid.lib dsound.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DirectDrawスケルトンプログラム.pdb" /debug /machine:I386 /out:"Debug/DirectDrawスケルトンプログラム.exe" /pdbtype:sept 
+".\Debug\GameMain.obj"
+".\Debug\GameOver.obj"
+".\Debug\GameStop.obj"
+".\Debug\GameTitle.obj"
+".\Debug\Main.obj"
+".\Debug\StageSelect.obj"
+".\Debug\DirectSound.obj"
+".\Debug\DirectMusic.obj"
+".\Debug\DDrawProc.obj"
+".\Debug\GameInit.obj"
+".\Debug\WinProc.obj"
+".\Debug\BltProc.obj"
+".\Debug\SaveLoadProc.obj"
+".\Debug\BackProc.obj"
+".\Debug\GameBltProc.obj"
+".\Debug\GameCheckProc.obj"
+".\Debug\MapProc.obj"
+".\Debug\StageEvent.obj"
+".\Debug\EnemyAct.obj"
+".\Debug\GameChrAct.obj"
+".\Debug\DebugProc.obj">
+Creating command line "link.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP92.tmp" 
+ｺﾝﾊﾟｲﾙ中...
+StageSelect.cpp
+C:\Documents and Settings\Owner\デスクトップ\VC++プログラム\●ゲーム\StageSelect.cpp(168) : warning C4101: 'str' : ﾛｰｶﾙ変数は 1 度も使われません。
+ﾘﾝｸ中...
+
+
+
+DirectDrawスケルトンプログラム.exe - ｴﾗｰ 0、警告 1
